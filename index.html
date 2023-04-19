@@ -12,16 +12,15 @@
         <source src="Vid2.mp4" type="video/mp4">
     </video>
   <div class="login-wrapper">
-    <form action="" class="form">
-      <img src="img/download.jpg" alt="">
+    <form action="" class="form" method="post" name="form" onsubmit="return validated()">
       <h2>Login</h2>
       <div class="input-group">
-        <input type="text" name="loginUser" id="loginUser" autocomplete="off" required>
-        <label for="loginUser">User Name</label>
+        <input placeholder="Please Enter Your Team Name" type="text" name="loginUser" id="loginUser" autocomplete="off" required>
+        <label for="loginUser" >Team Name</label>
       </div>
       <div class="input-group">
-        <input type="password" name="loginPassword" id="loginPassword" required>
-        <label for="loginPassword">Password</label>
+        <input placeholder="Please Enter Your Team Id"  type="password" name="loginPassword" id="loginPassword" required>
+        <label for="loginPassword">Team Id</label>
       </div>
       <input type="submit" value="Login" class="submit-btn">
     </form>
@@ -37,6 +36,7 @@
         <input type="submit" value="Submit" class="submit-btn">
       </form>
     </div> -->
+    <script src="valid.js"></script>
   </div>
 </body>
 </html>
