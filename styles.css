@@ -25,6 +25,17 @@
     color: #fff;
     box-shadow: 0 15px 25px rgba(0,0,0,0.5);
   }
+
+  #myVideo {
+    height: 10px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+  }
+
   .form::before {
     content:'';
     position: absolute;
