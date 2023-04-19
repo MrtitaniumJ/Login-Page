@@ -20,7 +20,7 @@
     width: 100%;
     max-width: 380px;
     padding: 80px 40px 40px;
-    background: rgba(0, 0, 0, 0.432);
+    background:c;
     border-radius: 10px;
     color: #fff;
     box-shadow: 0 15px 25px rgba(0,0,0,0.5);
@@ -35,6 +35,14 @@
     min-width: 100%;
     min-height: 100%;
   }
+
+  /* #pass_error {
+    margin-top: -23px;
+  }
+
+  #email_error {
+    margin-top: -23px;
+  } */
 
   .form::before {
     content:'';
@@ -56,6 +64,7 @@
     width: 100px;
     background: rgba(255,255,255, 0.8);
     border-radius: 50%;
+    
   }
 
 
